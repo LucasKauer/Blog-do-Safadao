@@ -1,0 +1,51 @@
+#biography-slides {
+	overflow: hidden;
+	position: relative;
+	width: 90%;
+	max-height: 20em;
+	margin: 0 auto;
+}
+
+#biography-slides ul {
+	list-style: none;
+	width: 100%;
+	max-height: 20em;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+#biography-slides li {
+	width: 100%;
+	max-height: 20em;
+	float: left;
+	text-align: justify;
+	position: relative;
+	font-family: lato, sans-serif;
+}
+
+#biography-buttons {
+	width: 50%;
+	margin: 0 auto;
+}
+
+#biography-buttons a {
+	font-size: 5em;
+	outline: 0;
+	color: #b14943;
+	text-decoration: none;
+	margin: 1%;
+}
+
+#biography-buttons a:first-child {
+	float: left;
+}
+
+#biography-buttons a:last-child {
+	float: right;
+}
+
+a#biography-prev:hover, a#biography-next:hover {
+	color: #fff;
+	text-shadow: .5px 0 #b14943;
+}
